@@ -1,4 +1,3 @@
-
 # üres listát hoz létre
 gyumolcsok = []
 
@@ -6,8 +5,9 @@ gyumolcsok = []
 gyumolcs = None
 while gyumolcs != '':
     gyumolcs = input('Adj meg egy gyümölcsöt! ')
-if gyumolcs != '':
+    if gyumolcs != '':
     # hozzáfűzi a listahoz
-   gyumolcsok.append(gyumolcs)
+        gyumolcsok.append(gyumolcs)
 
 print(gyumolcsok)  
+print(F"A gyümölcsök lista elemeinek száma: {len(gyumolcsok)}")
